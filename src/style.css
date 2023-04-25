@@ -38,10 +38,12 @@ img{
     height: 90%;
 }    
 .banner{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  width: 90%;
+    margin-top: 25px;
+    padding: 60px;
+    text-align: center;
+    background: #7b7e7d;
+    color: white;
+    font-size: 30px;  
 }
 .Down{
   margin-top: 25px;
@@ -52,4 +54,68 @@ img{
   color: white;
   text-align: center;
 }
-
+.firstBlog{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.firstBlog img{
+    width: 50%;
+}
+.secondBlog{
+    display: flex;
+    margin-top: 50px;
+    gap: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.secondBlog img{
+    width: 50%;
+}
+.thirdBlog{
+    display: flex;
+    margin-top: 50px;
+    gap: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.thirdBlog img{
+    width: 50%;
+}
+.pageContact{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 90%;
+    gap: 100px;
+    font-size: x-large;
+}
+.searchBar{
+    text-align: center;
+    margin-top: 25px;
+}
+.registrationBar{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    gap: 25px;
+}
+.textareaBar{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.singupBar{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16%;
+}
